@@ -1,0 +1,136 @@
+# Assignment_1reg
+Registration form
+<!DOCTYPE html>
+<html>
+<head><title>registration form</title>
+ <link rel="stylesheet" type="text/css" href="main1.css">
+
+</head>
+<style>
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+</style>
+<body>
+<center><h1> NCET Campus Placement</h1></center>
+</center><hr style="height:3px; border:green; color:green; background-color:green;">
+<form>
+ <fieldset>
+  <legend style="color:green";>Registration Form:</legend>
+  
+<div class="container">
+  <form action="/action_page.php">
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">Full name :<label style="color:red">*</label></label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="full name" placeholder="Enter full name">
+    </div>
+  </div>
+<div class="row">
+    <div class="col-25">
+      <label for="lname">Email :<label style="color:red">*</label></label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="lname" name="email" placeholder="Enter valid email">
+    </div>
+  </div>
+<div class="row">
+    <div class="col-25">
+      <label for="lname">Mobile :<label style="color:red">*</label></label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="lname" name="mobile" placeholder="Enter valid mobile number">
+    </div>
+  </div>
+
+</form>
+<form action="/action_page.php">
+<div class="row">
+    <div class="col-25">
+      <label for="fname">Gender :<label style="color:red">*</label></label>
+    </div>
+    <div class="col-75">
+
+  <input type="radio" name="gender" value="male"> Male
+  <input type="radio" name="gender" value="female"> Female</p>
+</form>
+</div>
+</div>
+<div class="row">
+    <div class="col-25">
+      <label for="lname">Branch :<label style="color:red">*</label></label>
+    </div>
+    <div class="col-75">
+      
+<select>
+  <option value="volvo">ECE</option>
+  <option value="saab">CSE</option>
+  <option value="opel">EEE</option>
+  <option value="audi">IT</option>
+</select>
+    </div>
+  </div>
+<div class="row">
+    <div class="col-25">
+      <label for="lname">languages :<label style="color:red">*</label></label>
+    </div>
+    <div class="col-75">
+<form action="/action_page.php">
+  <input type="checkbox" name="vehicle1" value="Bike">C/C++
+  <input type="checkbox" name="vehicle2" value="Car">Java
+  <input type="checkbox" name="vehicle3" value="Boat" checked>Web Technologies 
+<input type="checkbox" name="vehicle1" value="Bike">DBMS
+</form>
+
+
+</div>
+</div>
+<div class="row">
+    <div class="col-25">
+      <label for="lname">Spoken Language :<label style="color:red">*</label></label>
+    </div>
+    <div class="col-75">
+<select>
+  <option value="volvo">Tamil</option>
+  <option value="saab">English</option>
+  <option value="opel">Kannadam</option>
+  <option value="audi">Malayalam</option>
+</select>
+
+
+
+</div>
+</div>
+<div class="row">
+    <div class="col-25">
+      <label for="lname">Self Introduction :<label style="color:red">*</label></label>
+    </div>
+    <div class="col-75">
+      
+<textarea rows="4" cols="50">Please give a brief Introduction about your achievements
+</textarea>
+    </div>
+  </div>
+
+</fieldset>
+
+  
+
+</body>
